@@ -9,6 +9,10 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.a{
+    position: fixed 1px;
+}
+
 .nav {
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
@@ -20,6 +24,7 @@ body {
     position: relative;
     z-index: 100;
     font-weight: 700;
+    
 }
 
 .nav ul {
@@ -36,6 +41,11 @@ body {
     opacity: 1;
    
 }
+ 
+.li li:hover{
+    color: palevioletred;
+}
+
 
 .li {
     z-index: 1;
@@ -107,7 +117,7 @@ body {
     left: 654px;
     bottom: 10px;
     top: 6px;
-    z-index: 100;
+    z-index: 1;
 }
 
 .left-section {
@@ -164,7 +174,26 @@ body {
        
     }
 }
-.bg1{
+.bg{
     background-color: #fff0fa;
     /* width: ; */
+}
+.text{
+    margin-left: 28%;
+    position: absolute;
+    bottom: 1px;
+    top: 90%;
+    margin-top: 40px;
+    gap: 20px;
+    /* font-size: 20px; */
+}
+.text H5{
+    color: gray;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.text h6{
+    color: gray;
+    padding-left: 150px;
+    font-size: 15px;
 }
